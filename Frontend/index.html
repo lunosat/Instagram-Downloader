@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </header>
+    <body>
+        <img src="images/logo.png" alt="Instagram Downloader">
+        <h1>Instagram Downloader</h1>
+        <div class="inputBox">
+            <input type="text" name="url" id="url" required="required" placeholder="Instagram URL">
+            <i></i>
+        </div>
+
+        <div class="buttonBox">
+            <input type="button" value="Convert" onclick="get(document.getElementById('url').value)">
+        </div>
+        
+        <div id="result">
+    
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
